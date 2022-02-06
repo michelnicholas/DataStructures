@@ -11,11 +11,11 @@ public class ArrayListDemo {
 
     How ArrayList is different from Array?
     ArrayList:
-    ArrayList size grows dynamically when we add more and more elements.
+    ArrayList size grows dynamically when we ADD MORE and MORE elements.
     ArrayList provides various methods to work with the elements.
 
     Array:
-    Array is fixed size but compartively faster.
+    Array is FIXED size but compartively faster.
     Array can be multi-dimensional like 2D and 3D arrays.
 
     Implement the method getUnAssignedCodes() in the following code.

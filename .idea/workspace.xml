@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="628925f3-308f-4429-9d41-f2298256991d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SetDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MapDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArrayListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SetDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SetDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +37,16 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.SetDemo">
+  <component name="RunManager" selected="Application.MapDemo">
     <configuration name="ArrayListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayListDemo" />
+      <module name="DataStructures" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MapDemo" />
       <module name="DataStructures" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -52,6 +61,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapDemo" />
         <item itemvalue="Application.SetDemo" />
         <item itemvalue="Application.ArrayListDemo" />
       </list>

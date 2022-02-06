@@ -10,16 +10,20 @@ public class SetDemo {
     a. Index/position of Duplicate character(s): 3, 7, 9
     b. Total number of duplicate characters: 3
 
-    Hint Whenever you se the term 'duplicate' duplicate in the question, most likely you should use 'Set' datastructure
+    Hint Whenever you see the term 'duplicate' DUPLICATE in the question, most likely you should use 'Set' datastructure
      */
 
     public static void main(String[] args) {
         String s = "hello world";
 
-        // created char array
+        // created char array with variable s created above
         char[] charArray = s.toCharArray();
+
+        // Used collection and Character to create a new set
         Set<Character> set = new HashSet<Character>();
 
+
+        // counter variable
         int ctr = 0;
         for (int i = 0; i <charArray.length; i++){
             if (!set.add(charArray[i])){
