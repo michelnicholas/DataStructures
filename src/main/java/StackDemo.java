@@ -1,3 +1,6 @@
+import javax.xml.stream.events.Characters;
+import java.util.Stack;
+
 public class StackDemo {
     /*
     Given a string that contains only brackets, write a method named isBalanced(String s)
@@ -9,9 +12,35 @@ public class StackDemo {
     d . "{ } [ ] ("   - isBalanced(String s) should return false
 
     Hint: When you come across a closing bracket, check if it matches with the LAST opening bracket that still open
+
+    Stack is last in first out (LIFO)
+
      */
 
-    static boolean isBalanced(String s){
+    static boolean isBalanced(String s) {
+        Stack<Character> stack = new Stack();
+
+        for (char c: s.toCharArray()){
+            if (c == '{' || c == '[' || c == '('){
+            stack.push(c);
+            }else if (c == '}'){
+                    if (!(stack.pop()== '{')){
+                        return false;
+                }
+            }else if (c == ']'){
+                if (!(stack.pop() == '[')){
+                    return false;
+                }
+            }else if (c == ')'){
+                if (!(stack.pop() == '(')){
+                    return false;
+                }
+            }
+        }
+        if (!(stack.empty())){
+            return false;
+        }
+
         return true;
     }
 
@@ -24,6 +53,11 @@ public class StackDemo {
         System.out.println("s2 is balanced: " + isBalanced(s2));
         System.out.println("s3 is balanced: " + isBalanced(s3));
         System.out.println("s4 is balanced: " + isBalanced(s4));
+
+
+
+
+
     }
 
 }
